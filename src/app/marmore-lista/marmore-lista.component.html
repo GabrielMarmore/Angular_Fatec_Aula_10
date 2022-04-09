@@ -1,1 +1,18 @@
 <h2>Disciplinas Matriculadas</h2>
+
+<table>
+  <tr>
+    <th>Codigo</th>
+    <th>Nome</th>
+    <th>Dia</th>
+    <th>Hora</th>
+    <th>Ementa</th>
+  </tr>
+  <tr *ngFor="let materia of materias.getList(); index as i">
+    <td>{{ materia.codigo }}</td>
+    <td>{{ materia.nome }}</td>
+    <td>{{ materia.dia }}</td>
+    <td>{{ materia.hora }}</td>
+    <td>{{ materia.ementa }}</td>
+  </tr>
+</table>
