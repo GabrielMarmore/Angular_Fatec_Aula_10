@@ -69,5 +69,7 @@ export class MarmoreDisciplinasService {
 
   add() {}
 
-  remove() {}
+  remove(index: number) {
+    this.list.splice(index, 1);
+  }
 }
