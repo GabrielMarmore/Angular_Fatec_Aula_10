@@ -17,6 +17,7 @@ import { MarmoreEmentaComponent } from './marmore-ementa/marmore-ementa.componen
     RouterModule.forRoot([
       { path: '', component: MarmoreComponent },
       { path: 'materias', component: MarmoreListaComponent },
+      { path: 'marmore-ementa/:index', component: MarmoreEmentaComponent },
     ]),
   ],
   declarations: [
