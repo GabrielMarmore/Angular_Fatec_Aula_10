@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./marmore.component.css']
 })
 export class MarmoreComponent implements OnInit {
-
-  constructor() { }
+  isShown: boolean;
+  constructor() {
+    this.isShown = false;
+  }
 
   ngOnInit() {
+  }
+
+  descShow(){
+    this.isShown = ! this.isShown;
   }
 
 }

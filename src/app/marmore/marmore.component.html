@@ -4,3 +4,16 @@
 <a href="https://github.com/GabrielMarmore" target="_blank">
   https://github.com/GabrielMarmore
 </a>
+
+<h2>Personagem favorito</h2>
+<p>Monkey D. Luffy - One Piece</p>
+<img
+  (click)="descShow()"
+  src="https://i.pinimg.com/564x/c0/4a/32/c04a3251171467ea1560d2e51b6a820b.jpg"
+  alt="luffy"
+/>
+
+<p #desc *ngIf="isShown">
+  Nascido em East Blue, Monkey D. Luffy é um rapaz com um sonho bem ambicioso:
+  desde criança, ele sonhava em ser pirata!
+</p>
