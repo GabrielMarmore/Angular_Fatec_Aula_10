@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { MarmoreComponent } from './marmore/marmore.component';
 import { MarmoreListaComponent } from './marmore-lista/marmore-lista.component';
 import { MarmoreDisciplinasService } from './marmore-disciplinas.service';
+import { MarmoreEmentaComponent } from './marmore-ementa/marmore-ementa.component';
 
 @NgModule({
   imports: [
@@ -23,6 +24,7 @@ import { MarmoreDisciplinasService } from './marmore-disciplinas.service';
     HelloComponent,
     MarmoreComponent,
     MarmoreListaComponent,
+    MarmoreEmentaComponent,
   ],
   bootstrap: [AppComponent],
   providers: [MarmoreDisciplinasService],

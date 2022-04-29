@@ -13,7 +13,7 @@
     <td>{{ materia.nome }}</td>
     <td>{{ materia.dia }}</td>
     <td>{{ materia.hora }}</td>
-    <td>{{ materia.ementa }}</td>
+    <td><a [routerLink]="['marmore-ementa', i]">Link Ementa</a></td>
     <td><button (click)="materias.remove(i)">Apagar disciplina</button></td>
   </tr>
 </table>
